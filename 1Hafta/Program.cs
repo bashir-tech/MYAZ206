@@ -16,6 +16,7 @@ namespace _1Hafta
             Console.WriteLine($"{sbyte.MinValue}-{sbyte.MaxValue}");
 
             Console.WriteLine($"{uint.MinValue}-{uint.MaxValue}"); 
+
          
 
 
