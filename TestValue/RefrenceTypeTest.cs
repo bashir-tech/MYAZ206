@@ -29,6 +29,18 @@ namespace TestValue
             Assert.NotEqual(p1.X, p2.X);
         }
 
+        [Fact]
+        public void SwapTest()
+        {
+            //arrange
+            var reftype = new RefrenceType();
+            int a = 23, b = 55;
+            //Act
+            reftype.SwapByValue(a, b);
+            //Assert
+            Assert.Equal(23, a);
+            Assert.Equal(55, b);
+        }
 
     }
 }

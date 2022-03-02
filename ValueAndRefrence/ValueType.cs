@@ -2,6 +2,7 @@
 {
     public struct ValueType
     {
+      
         public ValueType(int x, int y)
         {
             X = x;
